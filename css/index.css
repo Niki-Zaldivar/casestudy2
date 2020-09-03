@@ -1,0 +1,89 @@
+.jumbotron {
+    background-image: url("../Images/lifelinecs/Untitled_Artwork\ 2.png");
+    background-size: cover;
+    background-repeat: no-repeat;}
+
+.display-4 {
+    color:transparent
+}
+
+.lead {
+    color: transparent;
+}
+
+.navbar{
+    font-family:'PT Sans Narrow', sans-serif;
+    font-size: 22px;
+}
+
+.dropdown-menu {
+    background-color: #eeeeeeff;
+    opacity: 0.95;
+}
+
+.studyHeading {
+    font-size: 90px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.headText {
+    text-align: center;
+    font-family:'PT Sans Narrow', sans-serif;
+    font-size: 22px;
+}
+
+.infoText {
+    font-family:'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family:'Amatic SC', cursive;
+}
+
+.textContainer {
+        display: flex;
+        margin-top: 50px;
+    
+    }
+
+
+.leftText {
+        float: left;
+        font-family:'PT Sans Narrow', sans-serif;
+        font-size: 20px;
+        width: 50%;
+        margin-left: 150px;
+        
+    }
+    
+.rightText {
+        float: right;
+        font-family:'PT Sans Narrow', sans-serif;
+        font-size: 20px;
+        width: 50%;
+        margin-right: 100px;
+    }
+
+.overView {
+    display: flex;
+    background-color: #674ea7ff;
+    margin-top: 50px;
+}
+
+.problemSolved {
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    justify-content: center;
+    background-size: contain;
+    align-content: center;
+    margin-left: 25%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+
+    
