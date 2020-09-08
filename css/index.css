@@ -1,10 +1,12 @@
 .jumbotron {
     background-image: url("../Images/lifelinecs/Untitled_Artwork\ 2.png");
-    background-size: cover;
-    background-repeat: no-repeat;}
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
 
 .display-4 {
-    color:transparent
+    color:transparent;
+    font-size: 5px;
 }
 
 .lead {
@@ -22,7 +24,7 @@
 }
 
 .studyHeading {
-    font-size: 90px;
+    font-size: 60px;
     text-align: center;
     font-weight: 700;
 }
@@ -36,6 +38,26 @@
 .infoText {
     font-family:'PT Sans Narrow', sans-serif;
     font-size: 20px;
+}
+
+.inforightText {
+    font-family:'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+    float: right;
+}
+
+.infoleftText {
+    font-family:'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+    float: left;
+}
+
+.bannerText {
+    font-family:'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-top: 30px;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -52,24 +74,37 @@ h1,h2,h3,h4,h5,h6 {
 .leftText {
         float: left;
         font-family:'PT Sans Narrow', sans-serif;
-        font-size: 20px;
+        font-size: 18px;
         width: 50%;
-        margin-left: 150px;
+        padding:3%;
         
     }
     
 .rightText {
         float: right;
         font-family:'PT Sans Narrow', sans-serif;
-        font-size: 20px;
+        font-size: 18px;
         width: 50%;
-        margin-right: 100px;
+        padding:3%;
     }
 
 .overView {
     display: flex;
     background-color: #674ea7ff;
     margin-top: 50px;
+}
+
+.define {
+    display: flex;
+    padding: 2%;
+
+}
+
+
+.solution {
+    width: 100%;
+    padding-right: 90px;
+    padding-left: 90px;
 }
 
 .centerText {
@@ -86,7 +121,8 @@ h1,h2,h3,h4,h5,h6 {
     justify-content: center;
     background-size: contain;
     align-content: center;
-    margin-left: 25%;
+    padding-left: 90px;
+    padding-right: 90px;
     padding-top: 50px;
     padding-bottom: 50px;
     
@@ -95,7 +131,7 @@ h1,h2,h3,h4,h5,h6 {
 .sectionHead {
     font-size: 60px;
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: 28px;
 }
 
 .define {
@@ -106,26 +142,70 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .definition {
-    float: left;
   width: 50%;
+  flex: 1;
 }
 
 .defineImg {
   width: 50%;
+  height: auto;
   float:right;  
-  margin-top: 150px;
+  margin-top: 20px;
+  flex: 1;
+  max-width: 350px;
 }
 
 .section{
     display: flex;
-    margin-left: 50px;
-
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    justify-content: center;
+    background-size: contain;
+    align-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+        
+    }
 }
 
 h2{
     text-align: center;
 }
 
+h3 {
+
+}
+
+.wrapper {
+    display:flex;
+    padding:2%;
+}
+
+
+
+.imgRight {
+  
+    display: flex;
+    width: 90%;
+    float: right;
+    flex:1;
+    padding: 3%;
+    max-width: 500px;
+    background-size: 100% auto;
+}
+
+.imgLeft {
+    display: flex;
+    width: 90%;
+    float: left;
+    flex:1;
+    padding: 3%;
+    max-width: 500px;
+    background-size: 100% auto;
+}
 
 .sectionHead{
     text-align: center;
@@ -133,7 +213,95 @@ h2{
     margin-top: 40px;
 }
 
-.banner{
-    margin-left: -50px;
+.projectHighlights{
+    flex: 1;
+    justify-content: right;
+    width: 50%;
+    display: flex;
+
 }
+
+.banner {
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#insight {
+    margin-top: 20%;
+}
+
     
+
+@media screen and (max-width: 600px) {
+    .define {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 25px;
+        display: flex;
+    }
+    
+    .definition {
+      width: 100%;
+    }
+    
+
+    .section {
+        display: flex;
+        width: 100%;
+        height: auto;
+    }
+    .imgRight {
+  
+        display: inline-block;
+        width: 100%;
+        flex:0;
+        padding: 3%;
+        max-width: 200px;
+        background-size: 100% auto;
+        justify-content: center;
+    }
+    
+    .imgLeft {
+        display: inline-block;
+        width: 100%;
+        flex:0;
+        padding: 1px;
+        max-width: 200px;
+        background-size: 100% auto;
+        justify-content: center;
+    }
+
+    .wrapper {
+        display: flex;}
+    }
+
+    .infoleftText {
+        font-size-adjust: 15px;
+    }
+}
+@media screen and (max-width: 850px) {
+    .imgRight {
+  
+        display: flex;
+        width: 100%;
+        flex:1;
+        padding: 3%;
+        max-width: 300px;
+        background-size: 100% auto;
+        justify-content: center;
+    }
+    
+    .imgLeft {
+        display: flex;
+        width: 100%;
+        flex:1;
+        padding: 1px;
+        max-width: 300px;
+        background-size: 100% auto;
+        justify-content: center;
+    }
+
+    .wrapper {
+        display: flex;}
+    }
