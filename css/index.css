@@ -185,9 +185,7 @@ h2{
     text-align: center;
 }
 
-h3 {
 
-}
 
 .wrapper {
     display:flex;
@@ -231,6 +229,12 @@ h3 {
 
 }
 
+.ul {
+    font-family:'PT Sans Narrow', sans-serif;
+    font-size: 25;
+    padding: 5%;
+}
+
 .banner {
     width: 100%;
     padding-right: 10px;
@@ -239,6 +243,36 @@ h3 {
 
 #insight {
     margin-top: 20%;
+}
+
+footer {
+    background-color: #f2f2f2;
+    opacity:.80;
+    vertical-align: bottom;
+    text-align: right;
+    color: #ffffff;
+    width: auto;
+    height: 300px;
+    padding: 1%;
+    font-size: 20px;
+    position: center;}
+
+footer a {
+    color: #ffffff;}
+
+.footerContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+.bottomLogo {
+    display: block;
+    flex: 1;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 
     
